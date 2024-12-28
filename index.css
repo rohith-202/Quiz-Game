@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(29, 29, 29);
+}
+.bgimg {
+  background-image: url(/index-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  filter: blur(5px);
+}
+.container {
+  width: 500px;
+  height: 250px;
+  /*border: 2px solid black;*/
+  border-radius: 40px;
+  background: linear-gradient(175deg, #fa5726, #206be3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: inline-block;
+}
+#text {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 150%;
+  color: white;
+}
+#title {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 300%;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+#button1 {
+  padding-top: 30px;
+  font-size: 130%;
+}
+button {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 80%;
+  background-color: rgb(39, 39, 39);
+  color: rgb(255, 253, 253);
+  border-radius: 30px;
+  border: none;
+}
+button:focus {
+  background-color: white;
+  color: rgb(39, 39, 39);
+}

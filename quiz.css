@@ -1,0 +1,124 @@
+.bgimg {
+  background-image: url(/quiz-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  filter: blur(5px);
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  border-radius: 40px;
+  background: linear-gradient(175deg, #fa5726, #206be3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  font-size: 200%;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 150%;
+  color: white;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.options li {
+  display: block;
+  padding: 12px;
+  font-size: 1.2rem;
+  background: #333;
+  border-radius: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.options li:hover {
+  background-color: #555;
+}
+
+.options input[type="radio"] {
+  display: none;
+}
+
+.options li.selected {
+  background-color: #f35d30;
+  color: white;
+  font-weight: bold;
+}
+
+.prevnext {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prevnext button {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: rgb(39, 39, 39);
+  color: rgb(255, 253, 253);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prevnext button:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.final-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.final-buttons button {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background-color: rgb(39, 39, 39);
+  color: rgb(255, 253, 253);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.final-buttons button:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.final-buttons .emoji {
+  font-size: 1.8rem;
+}
